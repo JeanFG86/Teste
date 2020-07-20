@@ -12,5 +12,30 @@ namespace LojaVirtual.Controllers
         {
             return View();
         }
+
+        public IActionResult Contato()
+        {
+            return View();
+        }
+
+        public IActionResult ContatoAcao()
+        {
+            return new ContentResult() { Content = "Dados recebidos com sucesso!" };
+        }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        public IActionResult CadastroCliente()
+        {
+            return View();
+        }
+
+        public IActionResult CarrinhoCompras()
+        {
+            return View();
+        }
     }
 }
